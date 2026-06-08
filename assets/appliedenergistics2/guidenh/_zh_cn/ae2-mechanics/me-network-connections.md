@@ -1,25 +1,18 @@
 ---
 navigation:
   parent: ../ae2-mechanics-index.md
-  title: ME网络连接
+  title: 网络连接
   icon: appliedenergistics2:item.ItemMultiPart:16
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAFMQ==
   - tM8pT_W3RCqZNDAovERxFg==
 ---
 
-# ME网络连接
-
-# 什么是独立的AE网络？
-在AE2原版的定义中，一个AE网络是由通过可以传递频道的[线缆](./channels.md)与设备连接的设备组。理论上讲讲，一根线缆就可以是一个网络。设备与线缆在一个AE网络内的特征是它们都从同一组控制器获取[频道](./channels.md)。
-
-由上文可以推导出来，不经由线缆与设备相互连接的网络互相不传递频道，被视为两个独立的AE网络。
-
-* 很自然的，在物理上相隔甚远并且没有经过[无线接入器](../items-blocks/wireless_connectors.md)或[量子环](./quantum-bridge.md)连接的两个网络是独立的。
-* 两个仅由<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="Left"/>或<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="Left"/>连接的AE网络也被视为两个独立的网络，因为石英纤维只传导能量而不传导频道、线缆锚则既不传导能量也不传导频道，仅用作分隔两根相邻的线缆（不同颜色的线缆不会相互连接，具体特性查看[线缆](./channels.md)）。
-
-网络除了相互独立，还有类似继承的关系，详见[子网](./subnetworks.md)。
 # 网络连接
+
+# 网络连接
+同一个AE网络内，不同区域的设备可以通过多种方式互相连接，可以是有线的也可以是无线的。
+
 ## 有线连接
 * 同一个AE网络里的设备可以通过线缆传递频道有线连接、也可以通过设备本身向其相邻的线缆与设备传递频道。通过设备最多可以传递8个频道，等效与普通线缆。
 
