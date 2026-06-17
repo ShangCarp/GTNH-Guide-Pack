@@ -13,7 +13,7 @@ navigation:
 
 * Many pages have interactive scenes. If a scene has ![Plus](assets/images/plus.png)
 and ![Minus](assets/images/minus.png) (zoom) buttons next to it, you can rotate and move the camera.
-Left click and drag to rotate, right click and drag to translate.
+left click and drag to rotate, right click and drag to translate.
 Hover over blocks or annotations to see their tooltips.
 
 # What is Applied Energistics 2?
@@ -25,9 +25,9 @@ with a single click, craft all of the prerequisites (and the final result) of a 
 quantities of items in stock, crafting more as needed, or simply transfer items around your base.
 
 * [Getting Started](getting-started.md)
-* [AE2 Mechanics](ae2-mechanics/ae2-mechanics-index.md)
+* [AE2 Mechanics](ae2-mechanics-index.md)
 * [Example Setups](example-setups/example-setups-index.md)
-* [Items, Blocks, and Machines](items-blocks/items-blocks-index.md)
+* [Items, Blocks, and Machines](items-blocks-index.md)
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
